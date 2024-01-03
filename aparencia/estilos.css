@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    font-family: sans-serif;
+    user-select: none;
+    text-decoration: none;
+}
+
+:root{
+    --cor1:#545373;
+    --cor2:#6d86a6;
+    --cor3:#a3afbf;
+    --cor4:#f2f2f2;
+    --cor5:#0d0d0d;
+    --cor6:#fdffff;
+}
+
+.container{
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    backdrop-filter: blur(4px);
+}
+
+div.logo{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--cor4);
+    cursor: pointer;
+}
+span{
+    color: var(--cor1);
+    font-weight: 900;
+}
+
+
+a{
+    margin: .625em;
+    padding: .625em;
+    color:var(--cor4);
+    font-weight: 600;
+}
+
+a:hover{
+    border-bottom: 2px solid var(--cor4);
+
+}
+
+a.login{
+    background-color: var(--cor1);
+    border-radius: .345em;
+    color:var(--cor4);
+}
+
+section.tema{
+    /* background-color: #7c4a1d; */
+    background-image: url(img/Arquitetura\ &\ Decoração.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.transpa{
+    background-color: #0000001c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    background-color: #ffffff00;
+    padding: .423em;
+    color: var(--cor4);
+    cursor: pointer;
+    border-radius: .625em;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.582);
+}
+
+h2{
+    border-bottom: 5px solid var(--cor1);
+}
+
+
+section.destaques{
+    background-color:var(--cor3);
+    width: 100vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+}
+
+div.destacados{
+    margin: 1.5em;
+    display: flex;
+}
+
+div.quartos{
+    margin: 1em;
+    background-color: var(--cor3);
+    width: 18vw;
+    height: 35vh;
+    border-radius: .625em;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    color: #1d1d24;
+    transition: all 2s ease;
+}
+
+div.quartos:hover{
+    transform: scale(1.1);
+}
+
+section.news-latter{
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 50vh;
+}
+
+footer{
+    background-color:#131318;
+    height: 30vh;
+    width: 100vw;
+}
+
+legend{
+    font-size: 1.2em;
+}
+
+img{
+    width: 18vw;
+    height: 28vh;
+    border-radius: .625em;
+    background-size: cover;
+    transition: all 1s ease;
+}
+
+img:hover{
+    opacity: 0.8;
+}

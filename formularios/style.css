@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+ :root{
+    --cor1: #545373;
+    --coo2: #6d86a6;
+    --cor3: #a3afbf;
+    --cor4: #f2f2f2;
+    --cor5: #0d0d0d;
+    --cor6: #fdffff;
+
+ }
+ body{
+    background-color: var(--cor5);
+    margin: 30px;
+ }
+ .cadastro-cliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height:583px;
+ }
+ .logo{
+    width: 366px;
+    height: 200px;
+ }
+.form{
+    width: 1055.99px;
+    height: 400pxpx;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    padding-top: 10px;
+    font-size: 10pt;
+    color: var(--cor4);
+    letter-spacing: 0.5px;
+}
+h2{
+    text-align: center;
+    color: var(--cor6);
+    font-size: 15pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    justify-content: center;
+}
+input,select{
+    display: flex;
+    justify-content: center;
+    width:550px;
+    height:30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:transparent;
+    border: 1px solid #ffffff18;
+    letter-spacing: 0.5px;
+    font-size: 10pt;
+    color: #201f1f;
+}
+input[type="submit"]{
+    background-color:transparent;
+    transition: 0.20s ease;
+    color: var(--cor6);
+    font-size: 15pt;
+    border: 1px solid #333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+input[type="submit"]:hover{
+    background-color: var(--cor3);
+}
+input[type="checkbox"]{
+    width: 20px;
+}
+.pago{
+    display: flex;
+    width:550px;
+    height:50px;
+}
+.pago label{
+    font-size: 10pt;
+    padding-top: 0px;
+    padding-right: 4px;
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff18;
+    margin-top: 5px;
+    padding: 5px;
+    color: var(--cor4);
+    border-radius: 5px;
+    width:550px;
+    height:50px;
+}
+textarea{
+    width:550px;
+    height:50px;
+    width: 550px;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 0.10px;
+    color: var(--cor4);
+    border: 1px solid #ffffff18;
+    background-color: transparent;
+}
+.Mensagens input[type="submit"]{
+    width: 250px;
+    height: 50px;
+}
+.Mensagens h2{
+    padding-bottom: 10px;
+}
+.Mensagens select{
+    height: 50px;
+    border-radius: 5px;
+    border: 1.4px solid;
+    border-color: #ffffff18;
+    background-color: transparent;
+    color: var(--cor4);
+    padding: 20px;
+}

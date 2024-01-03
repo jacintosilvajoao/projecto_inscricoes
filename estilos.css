@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    font-family: sans-serif;
+    list-style: none;
+    user-select: none;
+}
+
+:root{
+    --cor1: #545373;
+    --coo2: #6d86a6;
+    --cor3: #a3afbf;
+    --cor4: #f2f2f2;
+    --cor5: #0d0d0d;
+    --cor6: #fdffff;
+    --tamanho-fonte: 16px;
+}
+
+body{
+    font-size: var(--tamanho-fonte);
+    background-color: var(--cor6);
+}
+
+.opcoes{
+    background-color: var(--cor3);
+    max-width: 30%;
+    height: 100vh;
+    float: left;
+}
+
+.conteodo{
+
+    height: 100vh;
+    background-color: var(--cor6);
+    padding: 1em 3em 1em 0;
+}
+
+.nav-bar{
+    max-width: 78%;
+    border: 2px solid var(--cor3);
+    margin-left: 18em;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo{
+    width: 35%;
+    height: 11vh;
+    margin: 2em auto;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.384);
+    background-image: url(img/00-07-27-sala-de-estar-casa-da-cris-branca.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+div.reference-opcoes{
+    display: flex;
+    justify-content: end;
+}
+
+div.reference-opcoes ul li{
+    width: 16vw;
+    margin-top: 2em;
+    border-right: none;
+    text-align: center;
+}
+
+div.reference-opcoes ul li a{
+    color: #353638;
+    font-weight: 600;
+    display: block;
+    padding: 1em 0 1em;
+}
+
+
+div.reference-opcoes ul li:hover{
+    background-color: #717985;
+}
+
+div.reference-opcoes ul li.clicado{
+    background-color: var(--cor6);
+}
+
+.nav-bar ul li.opcoes-nav-bar{
+    display: inline-block;
+    margin-left: 3em;
+    color: var(--cor2);
+}
+
+.nav-bar ul li.opcoes-nav-bar a{
+ color: inherit;
+ padding: 0.37em;
+ font-weight: 600;
+}
+
+.div-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+    cursor: pointer;  
+}
+
+.perfil{
+    background-color: black;
+    width: 2.2em;
+    height: 5vh;
+    border-radius: 100%;
+    background-image: url(img/IMG-20230925-WA0006.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-perfil p{
+    margin-left: 0.375em;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.icon-left{
+    margin-right: 0.27em;
+    font-size: 1.4em;
+    color: #353638;
+}
+
+.icon-right{
+    margin-left: 0.27em;
+    color: #353638;
+}
+
+section{
+    width: 78%;
+    margin-left: 18em;
+    height: 76%;
+    margin-top: .625em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.button{
+    width: 78%;
+    margin-left: 18em;
+    height: 85%;
+    margin-top: .625em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.pai-destaques{
+    margin-top: 2em;
+}
+
+section div.destaques{
+    border: 2px solid var(--cor3);
+    width: 18vw;
+    margin: 2.623em 2em;
+    height: 30vh;
+    border-radius: .625em;
+    transition: all 1s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2em;
+    color: #5e6874;
+    cursor: pointer;
+}
+
+section div.destaques:hover{
+    transform: scale(1.1); 
+    opacity: 0.5;
+}
+
+img{
+    width: 60%;
+    height: 60;
+    display: block;
+    margin: 0.225em auto;
+}
+
+img.settings{
+    width: 15vw;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    height: 20vh;
+}
+
+th, 
+td{
+    border: 1px solid black;
+}
+
+
+.dropbtn {
+    background-color: var(--castanho);
+    color: inherit;
+    padding: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--cor3);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-weight: 400;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #6b7179;
+    color: white;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+ input{
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 0.625em;
+    margin: 0em 1em;
+ } 
+
+ input:focus{
+    box-shadow: 0 0 6px rgba(0, 0, 255, 0.651);
+ }
+
+
+ form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ fieldset{
+    border: 1px solid black;
+    padding: 13px;
+    border-radius: 0.625em;
+    margin-left: 1em;
+ }
+
+ button.atender{
+    background-color: var(--cor3);
+    color: var(--cor6);
+    padding: 13px;
+    border-radius: 0.625em;
+    margin-left: 1em;
+    cursor: pointer;    
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 1s ease;
+ }
+
+ button.atender:hover{
+    background-color: #7d8a99;
+ }
+
+ button.cancelar{
+    background-color: transparent;
+    color: var(--cor1);
+    padding: 13px;
+    border-radius: 0.625em;
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease;
+    border: 1px solid var(--cor3);
+ }
+
+ button.cancelar:hover{
+    background-color: #dad7d7;
+ }
+
+ select.tipo-quarto{
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: .625em;
+ }
+
+
+ /* Login do Administrador */
+
+ section.tudo{
+    font-size: 16px;
+}
+
+div.name-empresa{
+    background-color: var(--cor1);
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+
+div.container{
+    width: 50%;
+    float: left;
+    background-color: var(--cor3);
+    height: 100vh;
+}
